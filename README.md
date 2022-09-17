@@ -18,7 +18,7 @@ API for the Custom IMDB service. Allows you to work with:
 - **_Reviewed artworks_** Get a list of all items, create a review item, item info, update item info, delete item
 
 
-## [Documentation(ru)](http://62.84.122.16/redoc/)
+## [Documentation(ru)](http://84.252.129.134/redoc/)
 
 ## .env-file template:
 ```
