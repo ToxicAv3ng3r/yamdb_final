@@ -88,3 +88,15 @@ http://62.84.122.16/api/v1/titles/1/reviews/1
 ###### You will see this response:
 ![Response](https://user-images.githubusercontent.com/99352898/175463539-8f316740-144f-40b6-943e-66305e04d46c.jpg)
 
+## Author:
+[Andrey Ilyashenko](https://github.com/ToxicAv3ng3r)
+
+
+
+
+
+![](https://img.shields.io/pypi/pyversions/p5?logo=python&logoColor=yellow&style=for-the-badge)
+![](https://img.shields.io/badge/Django-2.2.16-blue)
+![](https://img.shields.io/badge/DRF-3.12.4-lightblue)
+
+[![Django-app workflow](https://github.com/ToxicAv3ng3r/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/ToxicAv3ng3r/yamdb_final/actions/workflows/yamdb_workflow.yml)
