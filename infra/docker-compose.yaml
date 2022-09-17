@@ -10,7 +10,7 @@ services:
       - ./.env
 
   web:
-    image: alastor047/infra_sp2:v1.1
+    image: t0xicavenger/yamdb:latest
     restart: always
     volumes:
       - static_value:/app/static/
