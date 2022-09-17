@@ -18,7 +18,7 @@ API for the Custom IMDB service. Allows you to work with:
 - **_Reviewed artworks_** Get a list of all items, create a review item, item info, update item info, delete item
 
 
-## [Documentation(ru)](http://62.84.122.16/redoc/)
+## [Documentation(ru)](http://84.252.129.134/redoc/)
 
 ## .env-file template:
 ```
@@ -35,7 +35,7 @@ DB_PORT=5432
 Use official documentation [here](https://docs.docker.com/engine/install/)
 - Clone the repository and change directory into it on the command line:
 ```
-git@github.com:Alastor047/yamdb_final.git
+git@github.com:ToxicAv3ng3r/yamdb_final.git
 ```
 - Run migrations:
 
@@ -68,23 +68,23 @@ quit()
 python manage.py loaddata dump.json
 ```
 ## Endpoints for example
-- Create User        http://62.84.122.16/api/v1/auth/signup/
+- Create User        http://84.252.129.134/api/v1/auth/signup/
 ```
 { "email": "string", "username": "string" }
 ```
-- Get Jwt Token      http://62.84.122.16/api/v1/auth/token/
+- Get Jwt Token      http://84.252.129.134/api/v1/auth/token/
 ```
 { "username": "string", "confirmation_code": "string" }
 ```
-- Category List      http://62.84.122.16/api/v1/categories/
-- Genre List         http://62.84.122.16/api/v1/genres/
-- Title List         http://62.84.122.16/api/v1/titles/
-- Review List        http://62.84.122.16/api/v1/titles/1/reviews/
-- Comment List       http://62.84.122.16/api/v1/titles/1/reviews/1/comments/
-- User List          http://62.84.122.16/api/v1/users/
-- User self profile  http://62.84.122.16/api/v1/users/me/
+- Category List      http://84.252.129.134/api/v1/categories/
+- Genre List         http://84.252.129.134/api/v1/genres/
+- Title List         http://84.252.129.134/api/v1/titles/
+- Review List        http://84.252.129.134/api/v1/titles/1/reviews/
+- Comment List       http://84.252.129.134/api/v1/titles/1/reviews/1/comments/
+- User List          http://84.252.129.134/api/v1/users/
+- User self profile  http://84.252.129.134/api/v1/users/me/
 - _You can also add the id number to the end of the **List-endpoint** path to get a separate instance as shown here:_
-http://62.84.122.16/api/v1/titles/1/reviews/1
+http://84.252.129.134/api/v1/titles/1/reviews/1
 ###### You will see this response:
 ![Response](https://user-images.githubusercontent.com/99352898/175463539-8f316740-144f-40b6-943e-66305e04d46c.jpg)
 
