@@ -10,7 +10,7 @@ services:
       - ./.env
 
   web:
-    image: t0xicavenger/fff:v2.11.1989
+    image: t0xicavenger/zaebalo:v2.11.1989
     restart: always
     volumes:
       - static_value:/app/static/
