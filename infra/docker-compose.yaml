@@ -10,7 +10,7 @@ services:
       - ./.env
 
   web:
-    image: t0xicavenger/yamdb:latest
+    image: t0xicavenger/yamdb:v0.1
     restart: always
     volumes:
       - static_value:/app/static/
