@@ -43,7 +43,8 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
       - name: Push to Docker Hub
         uses: docker/build-push-action@v2 
-        with: 
+        with:
+          context: ./api_yamdb
           push: true
           file: ./api_yamdb/Dockerfile
           tags: t0xicavenger/fff:v2.11.1989
