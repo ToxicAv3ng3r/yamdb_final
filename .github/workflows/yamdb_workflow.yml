@@ -46,7 +46,7 @@ jobs:
         with: 
           push: true
           file: ./api_yamdb/Dockerfile
-          tags: t0xicavenger/api_yamdb:latest
+          tags: t0xicavenger/yamdb:latest
 
   deploy:
     runs-on: ubuntu-latest
