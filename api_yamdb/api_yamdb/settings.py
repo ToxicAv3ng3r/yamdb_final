@@ -28,7 +28,6 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'reviews',
     'api',
-    'django.contrib.staticfiles',
     'drf_yasg',
 
 ]
